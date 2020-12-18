@@ -1,0 +1,13 @@
+project.ext {
+    junitVersion = '4.12'
+    truthVersion = '0.39'
+    robolectricVersion = '3.7.1'
+    mockitoVersion = '2.9.0'
+    powerMockMockito2Version = '1.7.0RC2'
+    powerMockVersion = '1.7.0'
+    projectTargetSdk = 29
+    projectMinSdk = 17
+    projectCompileSdk = 29
+    projectSupportAnnotationVersion = '28.0.0'
+    checkerframeworkVersion = '2.5.0'
+}

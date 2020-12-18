@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion projectCompileSdk
+    defaultConfig {
+        minSdkVersion projectMinSdk
+        targetSdkVersion projectTargetSdk
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+}
+
+dependencies {
+    testImplementation 'junit:junit:' + junitVersion
+}
